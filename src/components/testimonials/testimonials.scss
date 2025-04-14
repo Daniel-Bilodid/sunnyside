@@ -1,0 +1,82 @@
+@import "../../../_variables";
+.testimonials {
+  padding-top: 160px;
+  padding-bottom: 160px;
+
+  &__title {
+    width: 100%;
+    max-width: 348px;
+    color: rgb(167, 170, 173);
+
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__card {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 81px;
+    &-img {
+      width: 72px;
+      height: 72px;
+
+      border-radius: 100%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 58px;
+    }
+    &-descr {
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto;
+      color: rgb(91, 99, 109);
+      font-family: $barlow;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: -0.13px;
+      text-align: center;
+      margin-bottom: 69px;
+    }
+
+    &-name {
+      width: 100%;
+      max-width: 95px;
+      margin: 0 auto;
+      color: rgb(36, 48, 62);
+      font-family: $fraunces;
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 22px;
+      letter-spacing: -0.13px;
+      text-align: center;
+      margin-bottom: 9px;
+    }
+    &-role {
+      width: 100%;
+      max-width: 203px;
+      margin: 0 auto;
+      color: rgb(167, 170, 173);
+      font-family: $barlow;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 25px;
+      letter-spacing: -0.1px;
+      text-align: center;
+    }
+  }
+}
