@@ -1,0 +1,36 @@
+.nav {
+  padding-top: 34px;
+  padding-left: 40px;
+  padding-right: 48px;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 47px;
+    &-item {
+      button {
+        color: white;
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+    }
+
+    &-button {
+      button {
+        width: 140px;
+        height: 56px;
+        border-radius: 28px;
+
+        background: rgb(255, 255, 255);
+        color: black;
+      }
+    }
+  }
+}

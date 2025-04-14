@@ -1,0 +1,27 @@
+.hero {
+  width: 100%;
+  background-image: url("../../assets/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 44.5rem;
+  max-height: 100%;
+  text-align: center;
+
+  &__title {
+    margin-inline: auto;
+    color: rgb(255, 255, 255);
+    font-family: Fraunces 9pt Soft;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 116px;
+  }
+
+  &__arrow {
+    padding-top: 56.54px;
+  }
+}
