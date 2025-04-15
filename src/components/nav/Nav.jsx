@@ -1,6 +1,7 @@
 import React from "react";
 import "./nav.scss";
 import logo from "../../assets/logo.svg";
+import Burger from "../burger/Burger";
 
 function Nav() {
   return (
@@ -24,6 +25,9 @@ function Nav() {
             <button>CONTACT</button>
           </li>
         </ul>
+        <div className="nav__burger">
+          <Burger />
+        </div>
       </nav>
     </section>
   );
